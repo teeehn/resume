@@ -1,2 +1,2 @@
-# resume
+# Resume
 This is my resume.
