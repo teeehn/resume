@@ -11,14 +11,43 @@ body > * > * {
 
 body > header > * {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: start;
 }
 
-@media(min-width: 640px) {
+header img {
+    background: lightblue;
+    border: 1px solid white;
+    box-shadow: 0 0 4px 3px lightgrey, 0 0 0px 5px white, 0 0 0px 6px lightgrey;
+    border-radius: 50%;
+    height: auto;
+    margin-right: 1rem;
+    max-width: 80px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 640px) {
     body > header > * {
-        flex-direction: row;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img {
+        max-width: unset;
+    }
+
+    @supports(display: grid) {
+        body > header {
+            padding-top: 1rem;
+        }
+
+        body > header > * {
+            display:grid;
+            grid-template-rows: auto;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+        }
     }
 }
     
