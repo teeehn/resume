@@ -24,6 +24,7 @@ header img {
     height: auto;
     margin-right: 1rem;
     max-width: 80px;
+    width: 100%;
     padding: 5px;
 }
 
@@ -34,7 +35,7 @@ header img {
     }
     
     header img {
-        max-width: unset;
+        max-width: 120px;
     }
 
     @supports(display: grid) {
