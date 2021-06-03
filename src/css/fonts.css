@@ -11,15 +11,6 @@
     font-weight: bold;
 }
   
-body {
-font-family: 'Dosis', sans-serif;
-font-size: 1.2rem;
-}
-
-.super-bold {
-font-weight: bold;
-}
-  
 /* Set up Dosis for modern browsers, all weights */
 @supports (font-variation-settings: normal) {
     @font-face {
@@ -27,9 +18,5 @@ font-weight: bold;
         src: url('../../assets/Dosis/Dosis-VariableFont_wght.ttf') format('ttf supports variations'),
             url('../../assets/Dosis/Dosis-VariableFont_wght.ttf') format('ttf-variations');
         font-weight: 100 200 300 400 500 600 700 800;
-    }
-
-    .super-bold {
-        font-weight: 800;
     }
 }

@@ -1,4 +1,4 @@
 import 'normalize.css';
 import './css/fonts.css';
-import './css/style.css';
-import './css/module.css';
+import './css/typography.css';
+import './css/layout.css';

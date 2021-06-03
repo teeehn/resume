@@ -7,18 +7,39 @@
     </head>
     <body>
         <header>
-            This is the header.
+            <div>
+                <div>
+                    <h1>Thomas Nicolosi (<em>Tom</em>)</h1>
+                    <p>Web Developer/Software Engineer</p>
+                </div>
+            </div>
         </header>
         <main>
-            <% const { md } = require('./get_data.js') %>
-            <% md.forEach(file => { %>
-                <section>
-                    <%= file %>
-                </section>
-            <% }) %>
+            <% const { education, experience, summary } = require('./get_data.js') %>
+            <aside>
+                <%= summary %>
+            </aside>
+            <section>
+                <h3>Applicable Experience</h3>
+                <% experience.forEach(file => { %>
+                    <article>
+                        <%= file %>
+                    </article>
+                <% }) %>
+            </section>
+            <aside>
+                <%= education %>
+            </aside>
         </main>
         <footer>
-            This is the footer.
+            <div>     
+                <address>
+                    22976 Luciana<br>
+                    Mission Viejo, CA 92691<br>
+                    <a href="tel:9492353292">(949) 235-3292</a><br>
+                    <a href="mailto:thomas.nicolosi@gmail.com">thomas.nicolosi@gmail.com</a>
+                </address>
+            </div>
         </footer>
     </body>
 </html>

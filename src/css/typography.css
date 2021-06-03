@@ -1,0 +1,45 @@
+body {
+    color: #333;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+address {
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top:0;
+}
+
+a {
+    color: mediumblue;
+}
+
+article p > strong {
+    color: #555;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+article > h4 {
+    font-weight: 200;
+}
+
+section > h3,
+aside > h3 {
+    font-weight: 500;
+}
+
+header h1 {
+    font-weight: 500;
+    margin-bottom: 0;
+}

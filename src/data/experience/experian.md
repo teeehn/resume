@@ -1,0 +1,3 @@
+#### Web Developer - Experian Consumer Services (Contract via Vaco)
+**2012 to 2015**\
+Front end web development. Built and maintained high traffic, consumer facing, e-commerce websites including freecreditscore.com, freecreditreport.com and related brands. Agile team member for transition of legacy platform to AngularJS. Key technologies included HTML, CSS, JavaScript, jQuery, AngularJS, SDL Tridion CMS, TFS, Git, ASP.NET, MVC, and SQL Server.
