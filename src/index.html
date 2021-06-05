@@ -38,17 +38,26 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://github.com/teeehn/" title="Tom Nicolosi on Github">Github</a>
+                            <a href="https://github.com/teeehn/" title="Tom Nicolosi on Github">
+                                <% const icon_github = require('../assets/GitHub-Mark-Light-32px.png') %>
+                                <img class=icon alt="" src="<%= icon_github %>">
+                            </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/thomasnicolosi/" title="Tom Nicolosi on LinkedIn">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/thomasnicolosi/" title="Tom Nicolosi on LinkedIn">
+                                <% const icon_li = require('../assets/LI-In-Bug-32.png') %>
+                                <img class=icon alt="" src="<%= icon_li %>">
+                            </a>
                         </li>
                         <li>
-                            <a href="https://tomnicolosi.com/" title="Tom Nicolosi's blog">Blog</a>
+                            <a href="https://tomnicolosi.com/" title="Tom Nicolosi's blog">
+                                <% const icon_tn_blog = require('../assets/Tom-Nicolosi-TN-solid-bg.png') %>
+                                <img class=icon alt="" src="<%= icon_tn_blog %>">
+                            </a>
                         </li>
                     </ul>
                 </nav>
-                     
+
                 <address>
                     22976 Luciana<br>
                     Mission Viejo, CA 92691<br>

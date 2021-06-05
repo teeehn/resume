@@ -83,8 +83,23 @@ body > footer > *:first-child {
     border-top: 1px solid var(--color-separator);
     padding: 2rem 0 5rem;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
+}
+
+.icon {
+    display: inline-block;
+    height: auto;
+    width: 32px;
+}
+
+body > footer nav ul {
+    display: flex;
+    align-items: center;
+}
+
+body > footer nav ul li:not(:last-child) {
+    margin-right: 1rem;
 }
 
 @supports(display: grid) {
