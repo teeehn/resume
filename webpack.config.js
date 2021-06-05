@@ -54,7 +54,7 @@ const config = {
                 use: [stylesHandler,'css-loader'],
             },
             {
-                test: /\.(eot|svg|ttf|woff|woff2|png|jpg|jpeg|gif)$/i,
+                test: /\.(eot|svg|ttf|woff|woff2|png|jpg|jpeg|gif|ico)$/i,
                 type: 'asset',
             },
         ],
