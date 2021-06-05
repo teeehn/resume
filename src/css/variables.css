@@ -1,0 +1,8 @@
+:root {
+    --bg-trim-footer: rgb(41, 41, 41);
+    --font-family-body: 'Dosis', sans-serif;
+    --color-text-dark: #333;
+    --color-text-light: rgb(240, 240, 240);
+    --color-text-dark--strong: rgb(31, 31, 31);
+    --color-separator: gray;
+}

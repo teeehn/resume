@@ -10,7 +10,7 @@ body > * > * {
 }
 
 body > header {
-    border-top: 5px solid gray;
+    border-top: 5px solid var(--bg-trim-footer);
     padding-top: 2rem;
 }
 
@@ -72,12 +72,19 @@ body > main > * > h3 {
 }
     
 body > main > *:not(:last-child) {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--color-separator);
+}
+
+body > main {
+    padding-bottom: 2rem;
 }
 
 body > footer > *:first-child {
-    border-top: 1px solid lightblue;
+    border-top: 1px solid var(--color-separator);
     padding: 2rem 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @supports(display: grid) {
@@ -87,7 +94,7 @@ body > footer > *:first-child {
     }
     
     body > footer {
-        background: gray;
+        background: var(--bg-trim-footer);
     }
 
     body > footer > *:first-child {
