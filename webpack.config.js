@@ -3,8 +3,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 const RemarkHTML = require('remark-html');
+const RemarkFrontMatter = require('remark-frontmatter');
 
 const isProduction = process.env.NODE_ENV == 'production';
 
@@ -38,9 +38,13 @@ const config = {
                 {
                     loader: "remark-loader",
                     options: {
-                    remarkOptions: {
-                        plugins: [RemarkHTML],
-                    },
+                        removeFrontMatter: false,
+                        remarkOptions: {
+                            plugins: [
+                                RemarkHTML,
+                                RemarkFrontMatter
+                            ],
+                        },
                     },
                 },
                 ],
