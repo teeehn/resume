@@ -2,6 +2,10 @@
     "site": {
         "title": "Thomas Nicolosi (Tom) | Web Developer | Resume"
     },
+    "header": {
+        "heading_main": "Thomas Nicolosi (<em>Tom</em>)",
+        "tagline": "Web Developer/Software Engineer"
+    },
     "meta": {
         "description": "Tom Nicolosi is a web developer/software engineer, expert in modern HTML, CSS, JavaScript, Content Management Systems (CMS), and front end framework like React."
     }
