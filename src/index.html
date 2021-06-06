@@ -1,10 +1,9 @@
-<% const { education, experience, summary } = require('./get_data.js') %>
-<% const meta_data = require('./data/meta/index.json') %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <% const meta_data = require('./data/meta/index.json') %>
         <meta name="description" content="<%= meta_data.meta.description %>">
         <title>Thomas Nicolosi | Web Developer | Resume</title>
         <% const favicon = require('../assets/favicon.ico') %>
@@ -23,6 +22,7 @@
         </header>
         <main>
             <aside>
+                <% const { education, experience, summary } = require('./get_data.js') %>
                 <%= summary %>
             </aside>
             <section>
