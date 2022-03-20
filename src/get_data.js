@@ -5,8 +5,10 @@ import bigrentz from './data/experience/bigrentz.md';
 import experian from './data/experience/experian.md';
 import redbus from './data/experience/redbus.md';
 import education from './data/education.md';
+import tenx from './data/experience/tenx.md';
 
 const experience = [
+    tenx,
     freelance,
     panasonic,
     bigrentz,
